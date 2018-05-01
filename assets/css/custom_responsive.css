@@ -1,0 +1,140 @@
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .item {
+        width: 290px;
+    }
+    .post-item .post-content {
+        margin-left: 20px;
+    }
+    .follow-instagram img {
+
+        height: auto;
+
+    }
+
+}
+
+@media(min-width: 992px) {}
+
+/***
+
+==================================================================
+			Small Devices, Tablets
+==================================================================
+
+***/
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+    p {
+        font-size: 14px;
+        line-height: 23px;
+
+    }
+    .item {
+        width: 210px;
+    }
+    .iso_nav {
+        position: relative;
+        top: -30px;
+
+    }
+    .follow-instagram img {
+        height: auto;
+
+    }
+    .latest-post .post-item {
+        display: block;
+    }
+    .latest-post .post-item .post-content {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 767px) {
+    .iso_nav {
+        position: relative;
+        top: -30px;
+    }
+    .map-canvas {
+        width: 100%;
+        height: 320px;
+    }
+}
+
+/***
+
+==================================================================
+			Extra Small Devices, Phones 
+==================================================================
+
+***/
+
+@media(min-width: 575px) and (max-width: 767px) {
+
+    .item {
+        width: 230px;
+    }
+}
+
+@media(min-width: 480px) and (max-width: 574px) {
+    .item {
+        width: 200px;
+    }
+    .single-cat {
+	margin-bottom: 15px;
+}
+    /*
+    .popular-post .post-item {
+        display: block;
+    }
+*/
+}
+
+/***
+
+==================================================================
+			Custom Devices, iPhones Retina
+==================================================================
+
+***/
+
+@media(min-width: 320px) and (max-width:479px) {}
+
+@media(max-width:479px) {
+
+    .popular-post .post-item {
+        display: block;
+    }
+    .item {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .latest-post .post-item .post-content {
+        margin-left: 20px;
+    }
+    .single-cat {
+
+	margin-bottom: 15px;
+}
+
+}
+
+@media(max-width:319px) {
+    .latest-post .post-item {
+        display: block;
+    }
+    .latest-post .post-item .post-content {
+        margin-left: 0px;
+    }
+}
